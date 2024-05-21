@@ -1,3 +1,12 @@
 [submodule "deploy/submodules/odoo_chasqui_integration"]
 	path = deploy/submodules/odoo_chasqui_integration
 	url = git@github.com:Proyecto-Chasqui/odoo_chasqui_integration.git
+[submodule "deploy/submodules/odoo-argentina"]
+	path = deploy/submodules/odoo-argentina
+	url = https://github.com/a2systems/odoo-argentina.git
+[submodule "deploy/submodules/account-financial-tools"]
+	path = deploy/submodules/account-financial-tools
+	url = https://github.com/ingadhoc/account-financial-tools
+[submodule "deploy/submodules/account-payment"]
+	path = deploy/submodules/account-payment
+	url = https://github.com/ingadhoc/account-payment
