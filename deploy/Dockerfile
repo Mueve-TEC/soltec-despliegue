@@ -51,8 +51,7 @@ COPY --chown=odoo:odoo ./submodules/odoo-argentina/l10n_ar_report_withholding /m
 COPY --chown=odoo:odoo ./submodules/odoo-argentina/l10n_ar_rg5003 /mnt/extra-addons/l10n_ar_rg5003
 COPY --chown=odoo:odoo ./submodules/odoo-argentina/l10n_ar_stock /mnt/extra-addons/l10n_ar_stock
 
-COPY --chown=odoo:odoo ./submodules/odoo_chasqui_integration /mnt/extra-addons/odoo4chasqui
-COPY --chown=odoo:odoo ./submodules/odoo4chasqui
+COPY --chown=odoo:odoo ./submodules/odoo_chasqui_integration /mnt/extra-addons/odoo_chasqui_integration
 
 
 COPY --chown=odoo:odoo transport.py /var/lib/odoo/.local/lib/python3.9/site-packages/pysimplesoap/transport.py
